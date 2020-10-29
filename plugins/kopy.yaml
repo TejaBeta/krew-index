@@ -23,7 +23,7 @@ spec:
         to: "."
       - from: "./kopy"
         to: "."
-      bin: "kopy_0.0.1_Darwin_x86_64"
+    bin: "kopy"
   - selector:
       matchLabels:
         os: linux
@@ -35,7 +35,7 @@ spec:
         to: "."
       - from: "./kopy"
         to: "."
-      bin: "kopy_0.0.1_Linux_x86_64"
+    bin: "kopy"
   - selector:
       matchLabels:
         os: windows
@@ -47,5 +47,4 @@ spec:
         to: "."
       - from: "./kopy.exe"
         to: "."
-      bin: "kopy_0.0.1_Windows_x86_64"
-      
+    bin: "kopy.exe"
