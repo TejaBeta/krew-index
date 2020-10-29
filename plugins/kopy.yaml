@@ -48,3 +48,4 @@ spec:
       - from: "./kopy.exe"
         to: "."
     bin: "kopy.exe"
+    
